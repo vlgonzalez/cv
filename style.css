@@ -80,9 +80,15 @@ div p{
     margin-left: var(--horizontal_margin);
     font-family: var(--fonte-p);
 }
+@media (max-width: 800px) {
+    div h2{
+        padding-top: 120px;
+    }
+}
 div#contato{
     height: 10vh;
 }
+
 #contato ul{
     transform: translateY(-50%);
     position: absolute;
@@ -104,9 +110,26 @@ div#contato{
 }
 @media (max-width: 800px) {
     #contato {
-        margin: 80px 30px;
-        text-align: justify;
+    padding: 5px;
+     margin-left: 50%;
+     position: relative;
+     display: block;
+    transform: translateX(-50%);
     }
+    #contato ul{
+        padding: 5px;
+        margin-left: 50%;
+        position: relative;
+        display: block;
+        transform: translateX(-50%);
+        }
+     #contato li{
+        padding: 5px;
+        margin-left: 50%;
+        position: relative;
+        display: block;
+        transform: translateX(-50%);
+         }
 }
 #hoje{
     background-color: var(--cor4);
@@ -135,17 +158,30 @@ div#contato{
     margin-left: 100vh;
     padding-right: 95px;
 }
-@media (max-width: 600px){
-    #hoje{ 
-    display: block;
-    padding: 0;
-    margin-left: 50%;
-    transform: translateX(-50%)}
+@media (max-width: 800px){
+    #hoje{
+        display: block;
+        padding-top: 0px;
+    }
+    #hoje h3 {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    #hoje h4 {
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+    #hoje h5 {
+    margin-left: 30px; 
+    }
+    #hoje p{
+        margin-left: 30px;
+    } 
 }
-
 .sobre{
-    margin-left: var(--horizontal_margin);
     font-family: var(--fonte-p);
+    margin: 80px 200px;
 }
 .sobre h3{
     padding-top: 80px;
@@ -157,7 +193,7 @@ div#contato{
     padding-bottom: 5px;
 }
 .data{
-    margin-left: 150vh;
+    padding-left: 150vh;
     font-size: small;
     color: var(--cor3);
 }
@@ -165,9 +201,24 @@ div#contato{
     line-height: 1.5em;
 }
 @media (max-width: 800px) {
-    .sobre .sobre h3 .sobre h4 .data .sobre p{
-        margin: 80px 30px;
+    .sobre {
+        margin: 20px 30px;
         text-align: justify;
+        padding-top: 20px;
+    }
+    .sobre h3{
+        text-align: justify;
+        padding-top: 20px;   
+    }
+    .sobre h4 {
+        text-align: justify;
+        padding-top: 20px;  
+    }
+    .sobre p{
+        text-align: justify;   
+    }
+    .data{
+        padding-left: 0px;
     }
 }
 footer{
@@ -189,7 +240,3 @@ footer a:hover{
     text-align: center;
     color: var(--cor2);
 }
-@media (max-width: 800px) {
-    footer {
-        margin: 80px 30px;
-        text-align: justify;}}
