@@ -19,7 +19,6 @@ body{
     background-color: var(--cor2);
     margin: 0px;
     padding: 0px;
-    max-width: 400px;
 }
 header{
     background-color: var(--cor0);
@@ -28,7 +27,6 @@ header{
     height: 10vh;
     width: 100%;
     display: flex;
-    max-width: 400px;
 }
 header h1{
     color: var(--cor1);
@@ -39,16 +37,13 @@ header h1{
     position: absolute;
     font-size: 3em;
     font-family: 'Sriracha', cursive;
-    max-width: 400px;
 }
 nav a{
     text-decoration: none;
     color: var(--cor2);
-    max-width: 400px;
 }
 nav a:hover{
     color: var(--cor1);
-    max-width: 400px;
 }
 ul#menu{
     margin-right: var(--horizontal_margin);
@@ -57,13 +52,11 @@ ul#menu{
     transform: translateY(-50%);
     position: absolute;
     display: flex;
-    max-width: 400px;
 }
 li.menu{
     text-align: center;
     margin-left: 2vh;
     font-family: var(--fonte-p);
-    max-width: 400px;
 }
 div#principal{
     background-image: url('img/fundp.jpg');
@@ -72,7 +65,6 @@ div#principal{
     height: 100vh;
     background-color: var(--cor4);
     color: var(--cor2);
-    max-width: 400px;
 }
 div h2{
     padding-top: 300px;
@@ -80,35 +72,29 @@ div h2{
     font-size: 2em;
     margin-left: var(--horizontal_margin);
     font-family: var(--fonte-p);
-    max-width: 400px;
 }
 div p{
     margin-left: var(--horizontal_margin);
     font-family: var(--fonte-p);
-    max-width: 400px;
 }
 div#contato{
     height: 10vh;
-    max-width: 400px;
 }
 #contato ul{
     transform: translateY(-50%);
     position: absolute;
     display: flex;
     margin-left: var(--horizontal_margin);
-    max-width: 400px;
 }
 #contato li {
     text-align: center;
     padding-top: 80vh;
     padding-right: 200px;
-    max-width: 400px;
 }
 #contato a{
     color: var(--cor2);
     font-family: var(--fonte-p);
     font-weight: bolder;
-    max-width: 400px;
 }
 #contato a:hover{
     color: var(--cor1);
@@ -119,57 +105,47 @@ div#contato{
     height: 100vh;
     padding-top: 100px;
     font-family: var(--fonte-p);
-    max-width: 400px;
 }
 #hoje h3{
     margin-left: var(--horizontal_margin);
     font-size: 2em;
-    max-width: 400px;
 }
 #hoje h4{
     margin-left: 100vh;
     line-height: 2,5em;
     padding-top: 50px;
     font-size: large;
-    max-width: 400px;
 }
 #hoje h5{
     margin-left: 100vh;
     color: var(--cor1);
     line-height: 2em;
     font-size: medium;
-    max-width: 400px;
 }
 #hoje p{
     margin-left: 100vh;
     padding-right: 95px;
-    max-width: 400px;
 }
 .sobre{
     margin-left: var(--horizontal_margin);
     font-family: var(--fonte-p);
-    max-width: 400px;
 }
 .sobre h3{
     padding-top: 80px;
     padding-bottom: 20px;
     font-size: 2em;
-    max-width: 400px;
 }
 .sobre h4{
     padding-top: 40px;
     padding-bottom: 5px;
-    max-width: 400px;
 }
 .data{
     margin-left: 150vh;
     font-size: small;
     color: var(--cor3);
-    max-width: 400px;
 }
 .sobre p{
     line-height: 1.5em;
-    max-width: 400px;
 }
 footer{
     margin-top: 20px;
@@ -177,13 +153,11 @@ footer{
     color: var(--cor2);
     padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 400px;
 }
 footer a{
     color: var(--cor2);
     font-family: var(--fonte-p);
     font-weight: bold;
-    max-width: 400px;
 }
 footer a:hover{
     color: var(--cor1);
@@ -191,5 +165,4 @@ footer a:hover{
 #criador{
     text-align: center;
     color: var(--cor2);
-    max-width: 400px;
 }
