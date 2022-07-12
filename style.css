@@ -135,8 +135,13 @@ div#contato{
     margin-left: 100vh;
     padding-right: 95px;
 }
-@media (max-width: 800px){
-    #hoje{display: block;}}
+@media (max-width: 600px){
+    #hoje{ 
+    display: block;
+    padding: 0;
+    margin-left: 50%;
+    transform: translateX(-50%)}
+}
 
 .sobre{
     margin-left: var(--horizontal_margin);
@@ -160,7 +165,7 @@ div#contato{
     line-height: 1.5em;
 }
 @media (max-width: 800px) {
-    .sobre {
+    .sobre .sobre h3 .sobre h4 .data .sobre p{
         margin: 80px 30px;
         text-align: justify;
     }
