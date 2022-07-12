@@ -102,7 +102,7 @@ div#contato{
 #hoje{
     background-color: var(--cor4);
     color: var(--cor2);
-    height: 80vh;
+    height: 100vh;
     padding-top: 100px;
     font-family: var(--fonte-p);
 }
