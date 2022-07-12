@@ -102,6 +102,12 @@ div#contato{
 #contato a:hover{
     color: var(--cor1);
 }
+@media (max-width: 800px) {
+    #contato {
+        margin: 80px 30px;
+        text-align: justify;
+    }
+}
 #hoje{
     background-color: var(--cor4);
     color: var(--cor2);
@@ -129,6 +135,9 @@ div#contato{
     margin-left: 100vh;
     padding-right: 95px;
 }
+@media (max-width: 800px){
+    #hoje{display: block;}}
+
 .sobre{
     margin-left: var(--horizontal_margin);
     font-family: var(--fonte-p);
@@ -149,6 +158,12 @@ div#contato{
 }
 .sobre p{
     line-height: 1.5em;
+}
+@media (max-width: 800px) {
+    .sobre {
+        margin: 80px 30px;
+        text-align: justify;
+    }
 }
 footer{
     margin-top: 20px;
