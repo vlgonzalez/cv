@@ -6,11 +6,15 @@
 }
 :root{
     --fonte-p: Arial, Verdana, Helvetica, sans-serif;
-    --cor0: rgb(54, 52, 52);
+    --cor0: #220E3F;
     --cor1: rgb(47, 47, 232);
     --cor2: white;
+    --cor3: grey;
+    --cor4:#221648;
     --horizontal_margin: 7.5%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 body{
     background-color: var(--cor2);
     margin: 0px;
@@ -31,7 +35,8 @@ header h1{
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
-    font-size: 150%;
+    font-size: 3em;
+    font-family: 'Sriracha', cursive;
 }
 nav a{
     text-decoration: none;
@@ -51,12 +56,113 @@ ul#menu{
 li.menu{
     text-align: center;
     margin-left: 2vh;
+    font-family: var(--fonte-p);
 }
-div{
+div#principal{
     background-image: url('img/fundp.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
-    background-color: var(--cor0);
+    height: 100vh;
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+div h2{
+    padding-top: 300px;
+    padding-bottom: 5px;
+    font-size: 2em;
+    margin-left: var(--horizontal_margin);
+    font-family: var(--fonte-p);
+}
+div p{
+    margin-left: var(--horizontal_margin);
+    font-family: var(--fonte-p);
+}
+div#contato{
+    height: 10vh;
+}
+#contato ul{
+    transform: translateY(-50%);
+    position: absolute;
+    display: flex;
+    margin-left: var(--horizontal_margin); 
+}
+#contato li {
+    text-align: center;
+    padding-top: 80vh;
+    padding-right: 200px;
+}
+#contato a{
+    color: var(--cor2);
+    font-family: var(--fonte-p);
+    font-weight: bolder;
+}
+#contato a:hover{
+    color: var(--cor1);
+}
+#hoje{
+    background-color: var(--cor4);
+    color: var(--cor2);
+    height: 80vh;
+    padding-top: 100px;
+    font-family: var(--fonte-p);
+}
+#hoje h3{
+    margin-left: var(--horizontal_margin);
+    font-size: 2em;
+}
+#hoje h4{
+    margin-left: 100vh;
+    line-height: 2,5em;
+    padding-top: 50px;
+    font-size: large;
+}
+#hoje h5{
+    margin-left: 100vh;
+    color: var(--cor1);
+    line-height: 2em;
+    font-size: medium;
+}
+#hoje p{
+    margin-left: 100vh;
+    padding-right: 95px;
+}
+.sobre{
+    margin-left: var(--horizontal_margin);
+    font-family: var(--fonte-p);
+}
+.sobre h3{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+.sobre h4{
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.data{
+    margin-left: 150vh;
+    font-size: small;
+    color: var(--cor3);
+}
+.sobre p{
+    line-height: 1.5em;
+}
+footer{
+    margin-top: 20px;
+    background-color:#020202;
+    color: var(--cor2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer a{
+    color: var(--cor2);
+    font-family: var(--fonte-p);
+    font-weight: bold;
+}
+footer a:hover{
+    color: var(--cor1);
+}
+#criador{
+    text-align: center;
     color: var(--cor2);
 }
