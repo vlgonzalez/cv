@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --fonte-p: Arial, Verdana, Helvetica, sans-serif;
+    --cor0: #220E3F;
+    --cor1: rgb(47, 47, 232);
+    --cor2: white;
+    --cor3: grey;
+    --cor4:#221648;
+    --horizontal_margin: 7.5%;
+}
