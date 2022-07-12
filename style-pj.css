@@ -16,3 +16,47 @@ html {
     --cor4:#221648;
     --horizontal_margin: 7.5%;
 }
+body{
+    background-color: var(--cor0);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: var(--cor0);
+    z-index: 1;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+header h1{
+    color: var(--cor1);
+    margin-left: var(--horizontal_margin);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Sriracha', cursive;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
+nav a:hover{
+    color: var(--cor1);
+}
+ul#menu{
+    margin-right: var(--horizontal_margin);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    display: flex;
+}
+li.menu{
+    text-align: center;
+    margin-left: 2vh;
+    font-family: var(--fonte-p);
+}
