@@ -184,3 +184,7 @@ footer a:hover{
     text-align: center;
     color: var(--cor2);
 }
+@media (max-width: 800px) {
+    footer {
+        margin: 80px 30px;
+        text-align: justify;}}
