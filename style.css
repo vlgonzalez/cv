@@ -98,7 +98,10 @@ div#contato{
 #contato li {
     text-align: center;
     padding-top: 80vh;
-    padding-right: 200px;
+    padding-right: 100px;
+}
+#git{
+    padding-left: 400px;
 }
 #contato a{
     color: var(--cor2);
@@ -110,8 +113,8 @@ div#contato{
 }
 @media (max-width: 800px) {
     #contato {
-    padding: 5px;
-     margin-left: 50%;
+    padding: 40px;
+     margin-left: 15%;
      position: relative;
      display: block;
     transform: translateX(-50%);
@@ -124,7 +127,7 @@ div#contato{
         transform: translateX(-50%);
         }
      #contato li{
-        padding: 5px;
+        padding: 30px;
         margin-left: 50%;
         position: relative;
         display: block;
