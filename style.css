@@ -44,6 +44,7 @@ header h1{
 nav a{
     text-decoration: none;
     color: var(--cor2);
+    font-weight: bold;
 }
 nav a:hover{
     color: var(--cor1);
