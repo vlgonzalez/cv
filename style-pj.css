@@ -64,3 +64,6 @@ li.menu{
     header h1{
     font-size: 2em;
 }}
+h2{
+    color: var(--cor2);
+}

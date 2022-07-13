@@ -16,7 +16,7 @@ html {
     --cor4:#221648;
     --horizontal_margin: 7.5%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Sriracha&display=swap');
 
 body{
     background-color: var(--cor2);
@@ -39,7 +39,7 @@ header h1{
     transform: translateY(-50%);
     position: absolute;
     font-size: 3em;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Changa One', cursive;
 }
 nav a{
     text-decoration: none;
