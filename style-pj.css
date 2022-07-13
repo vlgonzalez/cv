@@ -165,16 +165,15 @@ ul#album-fotos li#foto06:hover{
     background-size: 200px 200px;
 }
 @media (max-width: 800px){
-    ul#album-fotos{
-        margin-right: 0px;
-        padding: 0px;
-        width: 800px;
-    }
     ul#album-fotos li{
-        float:none;
-        margin-right: 0px;
+        float: none;
         margin-bottom: 60px;
-        background-size: 00px 100px
+        margin-right: 0px;
+        margin-left: 80px;
+}   ul#album-fotos{
+    margin-right: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
 }
 }
 
