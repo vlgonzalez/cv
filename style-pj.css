@@ -60,3 +60,7 @@ li.menu{
     margin-left: 2vh;
     font-family: var(--fonte-p);
 }
+@media (max-width: 800px){
+    header h1{
+    font-size: 2em;
+}}
