@@ -115,7 +115,7 @@ ul#album-fotos li#foto01:hover{
     background-size: 200px 200px;
 }
 ul#album-fotos li#foto02{
-    background: url('img/monitor-loading-progress-icon.png') no-repeat;
+    background: url(img/data.png) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
